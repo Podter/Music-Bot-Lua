@@ -6,7 +6,11 @@
     license = ".",
     author = { name = "Podter", email = "." },
     homepage = "https://github.com/Podter/Music-Bot-Lua",
-    dependencies = {},
+    dependencies = {
+      "SinisterRectus/discordia",
+      "creationix/coro-spawn",
+      "creationix/coro-split",
+    },
     files = {
       "**.lua",
       "!test*"
