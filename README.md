@@ -18,5 +18,5 @@ A Discord Music Bot written in Lua
 * Start the bot by typing `luvit main.lua`
 # Configuration
 All Configurations are store in `settings.lua`
-    - `Prefix` is prefix for your bot, Default prefix is `!`
-    - `Token` is Discord Bot Token for your bot, Replace `Your Discord Bot Token Here!` with your bot token!
+* `Prefix` is prefix for your bot, Default prefix is `!`
+* `Token` is Discord Bot Token for your bot, Replace `Your Discord Bot Token Here!` with your bot token!
