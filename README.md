@@ -2,8 +2,8 @@
 A Discord Music Bot written in Lua
 # Installation
 ### Windows
-* Install [FFMPEG](https://ffmpeg.org)
 * Install [Luvit](https://luvit.io/install.html)
+* Install [FFMPEG](https://ffmpeg.org)
 * Clone the repository `git clone https://github.com/Podter/Music-Bot-Lua`
 * Install all packages from `package.lua` by typing `lit install`
     - This will install `SinisterRectus/discordia` `creationix/coro-spawn` and `creationix/coro-split`
