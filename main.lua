@@ -10,7 +10,7 @@ _G.queue = {}
 
 client:on("ready", function()
 	print("Logged in as " .. client.user.username)
-    client:setGame("\"help")
+    client:setGame(settings.Prefix .. "help")
 end)
 
 client:on("messageCreate", function(message)
@@ -92,7 +92,7 @@ client:on("messageCreate", function(message)
     elseif args[1] == settings.Prefix .. "disconnect" then -- !disconnect
         connection:stopStream()
         connection:close()
-        client:setGame("\"help")
+        client:setGame(settings.Prefix .. "help")
         message:addReaction("👋")
         
     elseif args[1] == settings.Prefix .. "join" then -- !join
@@ -112,7 +112,7 @@ client:on("messageCreate", function(message)
         message.channel:send {
             embed = {
               fields = {
-                {name = "These are list of commands!", value = "\"help = Show this thing!\n\"ping = Ping!\n\"join = Connect to VC\n\"play [Youtube URL/Search] = Play music in VC\n\"pause = Pause Music\n\"resume = Resume Music\n\"stop = Stop Music\n\"disconnect = Disconnect VC\n \nPrefix for this bot is \"", inline = true},
+                {name = "These are list of commands!", value = "help = Show this thing!\nping = Ping!\njoin = Connect to VC\nplay [Youtube URL/Search] = Play music in VC\npause = Pause Music\nresume = Resume Music\nstop = Stop Music\ndisconnect = Disconnect VC\n \nPrefix for this bot is " .. settings.Prefix, inline = true},
               },
               title = "Commands 🤖",
               color = discordia.Color.fromRGB(114, 137, 218).value,
