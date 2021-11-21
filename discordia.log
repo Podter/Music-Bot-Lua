@@ -1,0 +1,11 @@
+2021-11-17 19:38:23 | [INFO]    | Discordia 2.9.1
+2021-11-17 19:38:23 | [INFO]    | Connecting to Discord...
+2021-11-17 19:38:24 | [INFO]    | Authenticated as Podter's Test Bot#8940
+2021-11-17 19:38:25 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-17 19:38:25 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-17 19:38:25 | [INFO]    | Shard 0 : Received HELLO
+2021-11-17 19:38:25 | [INFO]    | Shard 0 : Received READY
+2021-11-18 02:50:09 | [INFO]    | Discordia 2.9.1
+2021-11-18 02:50:09 | [INFO]    | Connecting to Discord...
+2021-11-18 02:50:10 | [ERROR]   | 401 - Unauthorized : GET https://discord.com/api/v7/users/@me
+2021-11-18 02:50:10 | [ERROR]   | Could not authenticate, check token: HTTP Error 0 : 401: Unauthorized

@@ -1,0 +1,4 @@
+return {
+    Prefix = process.env.Prefix,
+    Token = process.env.Token,
+}
