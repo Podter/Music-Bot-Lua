@@ -18,7 +18,9 @@ A Discord Music Bot written in Lua
 * Start the bot by typing `luvit main.lua`
 ### Docker
 * Just run and replace `YourDiscordBotTokenHere` with your bot token
-```docker run -d -e Token=YourDiscordBotTokenHere -e Prefix=! podter/music-bot-lua```
+```
+docker run -d -e Token=YourDiscordBotTokenHere -e Prefix=! podter/music-bot-lua
+```
 # Configuration
 All Configurations are store in `settings.lua`
 * `Prefix` is prefix for your bot, Default prefix is `!`
